@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 class Output extends Component{
-    constructor(){
+    constructor(props){
         super(props);
         this.state = {
             value: props.value
